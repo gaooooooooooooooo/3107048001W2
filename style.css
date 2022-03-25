@@ -1,0 +1,81 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap');
+body {font-family: 'Noto Serif TC', serif;}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1550px;
+}
+
+header {
+    background-color: #5A8CA0;
+    height: 103px;
+    line-height: 113px;
+    color: #FFFFFF;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+
+nav {
+    text-align: center;
+    border: 24px double #5A8CA0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+nav a:link  {color: #577C8A;
+    text-decoration: none;}
+
+nav a:hover {color: #96ADB5;}
+nav a:visited {color: #577C8A;}
+
+
+
+.penguinimg {
+    height: 450px;
+    background-image: url(assets/penguinimg.jpg);
+    background-position: left top;
+    background-size: contain;
+}
+article {
+    background-color: #BCD2DD;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+article h2 {
+    line-height: 62px;
+    text-align: center;
+    background-color: #304F5E;
+    color: #FFFFFF;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+article h3 li  {
+    color: #304F5E;
+    line-height: 150%;
+    font-weight: bolder;
+	margin-left: 100px;
+
+}
+
+article h4 {
+	font-weight: normal;
+    margin-left: 100px;
+}
+footer {
+    color: #304F5E;
+    font-weight: bolder;
+}
+
+footer a:link  {
+    color: #577C8A;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+footer a:hover {color: #96ADB5;}
+footer a:visited {color: #577C8A;}
